@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34004.107
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddBotFunctions", "EddBotFunctions\EddBotFunctions.csproj", "{03B26FB1-DAA7-4289-B7D5-3313D3E6DC70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddBotFunctions.Test", "EddBotFunctions.Test\EddBotFunctions.Test.csproj", "{3A997043-3C21-47A5-B9FE-D3F30900225B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{03B26FB1-DAA7-4289-B7D5-3313D3E6DC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03B26FB1-DAA7-4289-B7D5-3313D3E6DC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03B26FB1-DAA7-4289-B7D5-3313D3E6DC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A997043-3C21-47A5-B9FE-D3F30900225B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A997043-3C21-47A5-B9FE-D3F30900225B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A997043-3C21-47A5-B9FE-D3F30900225B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A997043-3C21-47A5-B9FE-D3F30900225B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
