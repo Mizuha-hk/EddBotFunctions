@@ -14,7 +14,7 @@ namespace EddBotFunctions
         }
 
         [Function("TATAKIOKOSU")]
-        public async Task Run([TimerTrigger("0 */10 * * * *")] MyInfo myTimer)
+        public async Task Run([TimerTrigger("0 */5 * * * *")] MyInfo myTimer)
         {
             _logger.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
             _logger.LogInformation($"Next timer schedule at: {myTimer.ScheduleStatus.Next}");
