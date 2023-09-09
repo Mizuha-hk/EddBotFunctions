@@ -1,7 +1,20 @@
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Discord;
+using Discord.WebSocket;
+using EddBotFunctions.Shared;
 
-var host = new HostBuilder()
-    .ConfigureFunctionsWorkerDefaults()
-    .Build();
+namespace EddBotFunctions;
 
-host.Run();
+
+internal class Program
+{
+    private static void Main()
+    {
+        var host = new HostBuilder()
+            .ConfigureFunctionsWorkerDefaults()
+            .Build();
+
+        host.Run();
+    }
+}
