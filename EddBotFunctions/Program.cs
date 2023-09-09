@@ -2,7 +2,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Discord;
 using Discord.WebSocket;
-using EddBotFunctions.Shared;
 
 namespace EddBotFunctions;
 
